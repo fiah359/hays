@@ -1,0 +1,46 @@
+
+package bacus.it2c;
+
+
+import java.util.Scanner;
+
+public class BACUSIT2C {
+
+    
+    public static void main(String[] args) {
+        
+       
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter number of application: ");
+        int numApplication = sc.nextInt();
+        
+      
+           
+           System.out.print("ID: ");
+           int id = sc.nextInt();
+           
+           System.out.print("name: \n");
+           String name= sc.nextLine();
+           
+           System.out.print("Monthly income: ");
+           double income = sc.nextInt();
+           
+           System.out.print("Credit score: ");
+           double score = sc.nextInt();
+           
+           System.out.print("Existing Loans: ");
+           double loans= sc.nextInt();
+           
+           
+           
+           
+       }
+        
+        
+        
+        
+      
+    }
+    
+
